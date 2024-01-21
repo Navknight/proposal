@@ -2,7 +2,7 @@
 import { Button } from "@/components/ui/button";
 
 export default function Home () {
-    const handleHover = (e) => {
+    const handleHover = (e: React.MouseEvent<HTMLButtonElement>) => {
         const windowHeight = window.innerHeight;
         const windowWidth = window.innerWidth;
 
